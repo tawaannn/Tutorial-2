@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600;700&display=swap" rel="stylesheet">
+  <title>ผลงาน | บารมีธรรม บำรุงมิตร</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="index.html" class="logo">บารมีธรรม บำรุงมิตร</a>
+
+    <button class="menu-toggle" id="menu-toggle" aria-label="เปิดปิดเมนู" aria-expanded="false">☰</button>
+
+    <nav class="site-nav">
+      <ul>
+        <li><a href="index.html">หน้าแรก</a></li>
+        <li><a href="experience.html">ประสบการณ์</a></li>
+        <li><a href="projects.html" class="active">ผลงาน</a></li>
+        <li><a href="contact.html">ติดต่อ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="page-head">
+      <h1>ผลงาน</h1>
+      <p class="tagline">โครงงานที่เคยมีส่วนร่วมในการพัฒนา</p>
+    </section>
+
+    <section>
+      <h2>โครงงานที่ผ่านมา</h2>
+
+      <div class="project-grid">
+
+        <article class="project-card">
+          <img src="image1.png" alt="ภาพหน้าจอวงจรเรียงกระแสแบบบริดจ์">
+          <div class="project-body">
+            <h3>วงจรเรียงกระแสแบบบริดจ์</h3>
+            <p>
+              วงจรแปลงไฟฟ้าสลับ AC ให้เป็นไฟฟ้าตรง DC
+               แบบเต็มคลื่น Full-wave โดยใช้ไดโอด 4 ตัว
+               ต่อเรียงกันเป็นรูปบริดจ์
+            </p>
+            <ul class="tech-list">
+              <li>Proteus</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="image2.png" alt="ภาพหน้าจอBand Reject Filter">
+          <div class="project-body">
+            <h3>Band Reject Filter</h3>
+            <p>
+              วงจรกรองสัญญาณอิเล็กทรอนิกส์ที่จะ บล็อกหรือกั้น 
+              สัญญาณในช่วงความถี่เฉพาะที่กำหนดเอาไว้ ไม่ให้ผ่านไปได้
+              แต่จะปล่อยให้ความถี่ที่ต่ำกว่าและสูงกว่าช่วงนั้นผ่านไปได้ตามปกติ
+            </p>
+            <ul class="tech-list">
+              <li>Proteus</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="image3.png" alt="ภาพหน้าจอโปรแกรมIndustrail safety system">
+          <div class="project-body">
+            <h3>Industrail safety system</h3>
+            <p>
+              ระบบฮาร์ดแวร์และซอฟต์แวร์ที่ออกแบบมาเพื่อป้องกันอันตรายต่อชีวิตมนุษย์
+              เครื่องจักร และสิ่งแวดล้อมในกระบวนการผลิต
+            </p>
+            <ul class="tech-list">
+              <li>Proteus</li>
+              <li>Arduino</li>
+            </ul>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2569 บารมีธรรม บำรุงมิตร</p>
+    <p>สร้างด้วย HTML และ CSS</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
